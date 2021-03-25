@@ -1,0 +1,12 @@
+console.log('1. Trong JS, các trường hợp đặt tên biến bị SyntaxError:');
+console.log('- Bắt đầu bằng số');
+console.log('- Chứa các ký tự đặc biệt (kể cả khoảng trắng), ngoại trừ _ và $');
+console.log('- Trùng với keyword của JS \n');
+console.log('Ví dụ:');
+console.log('- Bắt đầu bằng số: 2711Abc');
+console.log('- Có chứa ký tự đặc biệt: t@^m');
+console.log('- Trùng với keyword của JS: let case \n');
+console.log('2. Để kiểm tra kiểu dữ liệu của biến, dùng: typeof');
+console.log('Ví dụ: let age = 22');
+let age = 22;
+console.log('typeof(22): ' + typeof(age) );
